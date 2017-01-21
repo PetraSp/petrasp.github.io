@@ -1,3 +1,53 @@
-body {
-	background:blue
+h1.Welcome {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+h2.Header2 {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+h4.Header4 {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+section#contact {
+	padding-bottom: 10px;
+	border: 3px solid #FFE4C4; 
+	margin-top: 25px;
+}
+
+textarea {
+	background-image: url(images/feedback_image.jpg);
+	background-repeat: no-repeat;
+	background-size: 40%;
+	background-position: center; 
+}
+
+img#imgone {
+	margin-top: 10px;
+}
+
+nav#visited-links {
+	color: orange;
+}
+
+#Cornelia {
+	color: orange;
+}
+
+footer {
+  	display: block;
+  	margin: auto;
+  	text-align: center;
+  	font-size: small;
+  	font-style: italic;
+}
+
+#Answer {
+	font-size: 2em;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    font-size: 6em;
+  }
 }
